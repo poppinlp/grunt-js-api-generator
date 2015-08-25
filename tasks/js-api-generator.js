@@ -8,9 +8,15 @@ module.exports = function(grunt) {
     grunt.registerMultiTask("js-api-generator", Package.description, function() {
         this.requiresConfig([this.name, this.target, "target"].join("."));
 
-        this.data.target = grunt.file.isPathAbsolute(this.data.target) ? this.data.target : path.join(process.cwd(), this.data.target);
-        this.data.outputFile = grunt.file.isPathAbsolute(this.data.outputFile) ? this.data.outputFile : path.join(process.cwd(), this.data.outputFile);
+        this.data.target = fixPath(this.data.target);
+        if (this.data.outputFile) {
+            this.data.outputFile = fixPath(this.data.outputFile);
+        }
 
         api(this.data);
     });
+
+    function fixPath(file) {
+        return grunt.file.isPathAbsolute(file) ? file : path.join(process.cwd(), file);
+    }
 };
