@@ -63,4 +63,5 @@ grunt test
 
 ## History
 
-- Ver 0.0.1 - init
+- Ver 0.0.2 - Bugfix
+- Ver 0.0.1 - Init
