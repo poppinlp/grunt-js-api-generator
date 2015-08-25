@@ -1,0 +1,31 @@
+{
+  "name": "grunt-js-api-generator",
+  "version": "0.0.1",
+  "description": "Generate api module from config file.",
+  "main": "tasks/js-api-generator.js",
+  "dependencies": {
+    "js-api-generator": "0.0.7"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poppinlp/grunt-js-api-generator.git"
+  },
+  "keywords": [
+    "gruntplugin",
+    "js",
+    "api",
+    "generator"
+  ],
+  "author": "PoppinL",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/poppinlp/grunt-js-api-generator/issues"
+  },
+  "homepage": "https://github.com/poppinlp/grunt-js-api-generator#readme"
+}
