@@ -63,4 +63,4 @@ grunt test
 
 ## History
 
-- Ver 0.2.2 \- Update with dep
+Update with [js-api-generator](https://github.com/poppinlp/js-api-generator)
