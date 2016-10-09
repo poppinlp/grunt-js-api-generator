@@ -1,10 +1,10 @@
 {
   "name": "grunt-js-api-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate api module from config file.",
   "main": "tasks/js-api-generator.js",
   "dependencies": {
-    "js-api-generator": "^1.0.0"
+    "js-api-generator": "^1.0.1"
   },
   "peerDependencies": {
     "grunt": ">=0.4.0"
